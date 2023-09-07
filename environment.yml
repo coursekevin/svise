@@ -1,0 +1,24 @@
+name: svi-state-estimation
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.10
+  - pytorch::torchaudio
+  - pytorch::torchvision
+  - pytorch::pytorch
+  - pytorch-cuda=11.8
+  - scikit-learn
+  - gpytorch
+  - botorch
+  - tqdm
+  - seaborn
+  - pytest-xdist
+  - pip
+  - pip:
+    - pysindy==1.7.2
+    - dapper==1.5.1
+platforms:
+  - linux-64

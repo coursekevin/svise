@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "svise"
+version = "0.1.0"
+description = "State estimation without governing equations"
+authors = ["coursekevin <kevin.course@mail.utoronto.ca>"]
+license = "GNUv3"
+readme = "README.md"
+packages = [{include = "svise"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+torch = "2.0.1"
+torchvision = "0.15.2"
+torchaudio = "2.0.2"
+scikit-learn = "^1.2.2"
+torchsde = "^0.2.5"
+
+[tool.poetry.group.dev.dependencies]
+gpytorch = "^1.10"
+botorch = "^0.8.5"
+tqdm = "^4.65.0"
+matplotlib = "^3.7.1"
+seaborn = "^0.12.2"
+pytest-xdist = "^3.3.1"
+pysindy = "1.7.2"
+dapper = "1.5.1"
+black = "^23.3.0"
+sphinx = ">=1.6,<7"
+sphinx-rtd-theme = "^1.2.1"
+scipy = "^1.7.1"
+repopacker = "^0.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

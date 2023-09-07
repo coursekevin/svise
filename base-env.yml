@@ -1,0 +1,14 @@
+name: svi-state-estimation
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.10
+  - pip
+  - poetry
+  - pytorch::torchaudio=2.0.2
+  - pytorch::torchvision=0.15.2
+  - pytorch::pytorch=2.0.1
+  - pytorch-cuda=11.8
