@@ -28,7 +28,7 @@ black = "^23.3.0"
 sphinx = ">=1.6,<7"
 sphinx-rtd-theme = "^1.2.1"
 scipy = "^1.7.1"
-repopacker = "^0.1.1"
+repopacker = "^0.2.0"
 
 
 [build-system]

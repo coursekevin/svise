@@ -20,7 +20,7 @@ If you just want to use the package,
 you can install `svise` [from PyPI](#install-from-pypi).
 
 If you wish to reproduce experiments / figures, we recommend
-[duplicating the experiment environment](#duplicating-the-experiment-environment).
+[installing optional dependencies](#installing-optional-dependencies).
 
 ### Install from PyPI
 
@@ -28,16 +28,16 @@ If you wish to reproduce experiments / figures, we recommend
 pip install svise
 ```
 
-### Duplicating the experiment environment
-We make use of [conda-lock](https://github.com/conda/conda-lock) 
+### Installing Optional Dependencies
+We use of [conda-lock](https://github.com/conda/conda-lock) 
 and [poetry](https://python-poetry.org/) to
-create reproducible experiment environments.
+manage dependencies.
  After installing conda-lock, follow the steps below to duplicate the experiment environment.
 
 1. Clone the repository.
 
 ```bash
-git clone https://github.com/coursekevin/svi-state-estimation.git
+git clone https://github.com/coursekevin/svise.git
 ```
 
 2. Navigate into the directory and create a new conda environment.
@@ -62,11 +62,18 @@ poetry install --with dev
    If any tests fail, run again before filing an issue.)
 
 ```bash
-pytest
+pytest tests/
 ```
 
 **Dependencies:**
 - see `pyproject.toml` for a complete list of dependencies.
+
+6. Download pretrained models, data, and figures:
+
+```bash
+repopacker download svise-pack.zip
+repopacker unpack svise-pack.zip
+```
 
 ---
 
@@ -88,16 +95,19 @@ python main.py [experiment] generate-data
 
   - `pure-se` (state estimation without corruptions)
   - `corrupted-se` (state estimation without probabilistic corruptions)
-  - `disc-goveq` (discovering governing equation experiments)
-  - `high-dim-ex` (Lorenz '96 experiment)
   - `cylinder-flow` (Cylinder-flow reduced-order modeling experiment)
 
-- Examples in appendix:
+- Examples in Methods:
 
-  - `newtonian-ex` (Newtonian system example in Appendix)
+  - `symb-goveq-disc` (discovering governing equation experiments)
+  - `second-order-disc` (second order governing equation discovery)
+  - `ext-goveq-disc` (Lorenz '96 experiment)
+  - `binary-black-hole` (Binary black hole problem)
 
 2. Train a model on a dataset optionally specifying the random seed.
-   The model will be saved in the experiment subdirectory.
+   The model will be saved in the experiment subdirectory. If there is only
+   one dataset (such as is true for the cylinder-flow problem) there is no 
+   need to specify the dataset path.
 
 ```bash
 python main.py [experiment] run-[method] -dp path/to/dataset.pt -rs seed

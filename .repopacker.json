@@ -4855,8 +4855,9 @@
   "config": {
     "gitignore": true,
     "downloadpath": "",
-    "version_warning": true,
+    "version_warning": false,
     "checksum": true,
-    "sha256": ""
+    "sha256": "a338953d9e80989f3cc7fce4ba2c63431a7f2d983909f7e9352a407d2474453a",
+    "compresslevel": "9"
   }
 }
