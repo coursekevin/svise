@@ -1011,7 +1011,6 @@ experiments/2_probabilistic_corruptions/results/models/dapper_lorenz63_100permil
 experiments/2_probabilistic_corruptions/results/models/svise_duffing_oscillator_100permille_0128data_08_1667145624rs.pt
 experiments/2_probabilistic_corruptions/results/models/svise_hopf_bifurcation_100permille_0128data_07_1667153821rs.pt
 experiments/3_cylinder_flow/data/vortex.pkl
-experiments/3_cylinder_flow/data/encoded_data.pkl
 experiments/3_cylinder_flow/results/figs/norm.pdf
 experiments/3_cylinder_flow/results/figs/latent_state_preds.pdf
 experiments/3_cylinder_flow/results/models/nsde_014000.pt

@@ -853,7 +853,6 @@
     "experiments/2_probabilistic_corruptions/results/models/svise_duffing_oscillator_100permille_0128data_08_1667145624rs.pt",
     "experiments/2_probabilistic_corruptions/results/models/svise_hopf_bifurcation_100permille_0128data_07_1667153821rs.pt",
     "experiments/3_cylinder_flow/data/vortex.pkl",
-    "experiments/3_cylinder_flow/data/encoded_data.pkl",
     "experiments/3_cylinder_flow/results/figs/norm.pdf",
     "experiments/3_cylinder_flow/results/figs/latent_state_preds.pdf",
     "experiments/3_cylinder_flow/results/models/nsde_014000.pt",
@@ -4857,7 +4856,7 @@
     "downloadpath": "",
     "version_warning": false,
     "checksum": true,
-    "sha256": "a338953d9e80989f3cc7fce4ba2c63431a7f2d983909f7e9352a407d2474453a",
+    "sha256": "97d641d726e9b9756444914b5a7418fcac5d189ae66175d489bfa98a57869df0",
     "compresslevel": "9"
   }
 }

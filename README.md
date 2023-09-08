@@ -1,6 +1,6 @@
-# State estimation without governing equations
+# State estimation with unknown governing equations
 
-Accompanying code for "State estimation of a physical system without governing equations" by Kevin Course
+Accompanying code for "State estimation of a physical system with unknown governing equations" by Kevin Course
 and Prasanth B. Nair.
 
 <p align="center">
