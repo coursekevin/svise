@@ -171,4 +171,4 @@ Completed docs can be found in the `docs/_build` directory.
 
 ## 4. Reference
 
-Course, K., Nair, P.B. State estimation of a physical system with unknown governing equations. Nature 622, 261–267 (2023). https://doi.org/10.1038/s41586-023-06574-8 utorials and docs coming soon!
+Course, K., Nair, P.B. State estimation of a physical system with unknown governing equations. Nature 622, 261–267 (2023). https://doi.org/10.1038/s41586-023-06574-8 
