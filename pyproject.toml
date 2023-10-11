@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "svise"
-version = "0.1.1"
+version = "0.1.2"
 description = "State estimation of a physical system with unknown governing equations"
 authors = ["coursekevin <kevin.course@mail.utoronto.ca>"]
 license = "GNUv3"
