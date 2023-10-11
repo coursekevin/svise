@@ -1,4 +1,4 @@
-# Stochastic Variational Inference for State Estimation (svise)
+# Stochastic Variational Inference for State Estimation
 
 Accompanying code for "State estimation of a physical system with unknown governing equations" by Kevin Course
 and Prasanth B. Nair.
