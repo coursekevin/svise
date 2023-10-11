@@ -4852,7 +4852,7 @@
   ],
   "config": {
     "gitignore": true,
-    "downloadpath": "https://zenodo.org/api/files/fcb3a85c-4a06-4fea-8337-cdb83875eaf3/svise-pack.zip",
+    "downloadpath": "https://zenodo.org/record/8327545/files/svise-pack.zip?download=1",
     "version_warning": false,
     "checksum": true,
     "sha256": "942c95b4bf32f8b8368a9935b70a9042e4080b7ceb5bd506b6f2cdb60dd92469",
