@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "svise"
 version = "0.1.0"
-description = "State estimation without governing equations"
+description = "State estimation of a physical system with unknown governing equations"
 authors = ["coursekevin <kevin.course@mail.utoronto.ca>"]
 license = "GNUv3"
 readme = "README.md"

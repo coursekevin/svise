@@ -7,6 +7,8 @@ and Prasanth B. Nair.
   <img align="middle" src="./experiments/extras/output.gif" alt="Example usage" width="700"/>
 </p>
 
+Tutorials and docs coming soon!
+
 ## Index
 
 1. [Installation](#1-installation)
@@ -32,10 +34,12 @@ If you don't want to rerun experiments, you can skip ahead to the docs.
 
 ### Installing Optional Dependencies
 
-We use of [conda-lock](https://github.com/conda/conda-lock)
+We use [conda-lock](https://github.com/conda/conda-lock)
 and [poetry](https://python-poetry.org/) to
-manage dependencies.
-After installing conda-lock, follow the steps below to duplicate the experiment environment.
+manage dependencies (although we wouldn't recommend it...).
+
+After installing conda-lock, follow the steps below to install all dependencies
+used in the experiment environment.
 
 1. Clone the repository.
 
@@ -166,3 +170,5 @@ make latexpdf
 Completed docs can be found in the `docs/_build` directory.
 
 ## 4. Reference
+
+Course, K., Nair, P.B. State estimation of a physical system with unknown governing equations. Nature 622, 261–267 (2023). https://doi.org/10.1038/s41586-023-06574-8 utorials and docs coming soon!

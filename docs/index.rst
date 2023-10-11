@@ -63,4 +63,4 @@ Indices and tables
 Research references
 ===================
 
-* Kevin Cours and Prasanth B. Nair. "State estimation without governing equations."
+* Kevin Course and Prasanth B. Nair. "State estimation with unknown governing equations."
