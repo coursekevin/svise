@@ -1,4 +1,4 @@
-# State estimation with unknown governing equations
+# Stochastic Variational Inference for State Estimation (svise)
 
 Accompanying code for "State estimation of a physical system with unknown governing equations" by Kevin Course
 and Prasanth B. Nair.
@@ -16,7 +16,7 @@ and Prasanth B. Nair.
 
 ## 1. Installation
 
-If you just want to use the package, 
+If you just want to use the package,
 you can install `svise` [from PyPI](#install-from-pypi).
 
 If you wish to reproduce experiments / figures, we recommend
@@ -28,11 +28,14 @@ If you wish to reproduce experiments / figures, we recommend
 pip install svise
 ```
 
+If you don't want to rerun experiments, you can skip ahead to the docs.
+
 ### Installing Optional Dependencies
-We use of [conda-lock](https://github.com/conda/conda-lock) 
+
+We use of [conda-lock](https://github.com/conda/conda-lock)
 and [poetry](https://python-poetry.org/) to
 manage dependencies.
- After installing conda-lock, follow the steps below to duplicate the experiment environment.
+After installing conda-lock, follow the steps below to duplicate the experiment environment.
 
 1. Clone the repository.
 
@@ -66,6 +69,7 @@ pytest tests/
 ```
 
 **Dependencies:**
+
 - see `pyproject.toml` for a complete list of dependencies.
 
 6. Download pretrained models, data, and figures:
@@ -73,6 +77,20 @@ pytest tests/
 ```bash
 repopacker download svise-pack.zip
 repopacker unpack svise-pack.zip
+```
+
+This will download everything except for the cylinder data used in the third
+example. The cylinder data is split up in seven 3.2GB chunks. Download all the
+chunks and combine the data with:
+
+```bash
+cat cylinder_data_split.z*[0..9]* cylinder_data_split.zip > cylinder_data.zip
+```
+
+Unzip the data move the file `vortex.pkl` into the directory
+
+```bash
+/experiments/3_cylinder_flow/data
 ```
 
 ---
@@ -106,7 +124,7 @@ python main.py [experiment] generate-data
 
 2. Train a model on a dataset optionally specifying the random seed.
    The model will be saved in the experiment subdirectory. If there is only
-   one dataset (such as is true for the cylinder-flow problem) there is no 
+   one dataset (such as is true for the cylinder-flow problem) there is no
    need to specify the dataset path.
 
 ```bash

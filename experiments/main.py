@@ -11,7 +11,7 @@ class ExpList(Enum):
     CORRUPTED_SE = ("corrupted-se", "2_probabilistic_corruptions")
     CYLINDER_FLOW = ("cylinder-flow", "3_cylinder_flow")
     SYMB_GOVEQ_DISC = ("symb-goveq-disc", "4_symbolic_goveq_discovery")
-    EXT_GOVEQ_DISC = ("ext-goveq-disc", "5_extened_goveq_discovery")
+    EXT_GOVEQ_DISC = ("ext-goveq-disc", "5_extended_goveq_discovery")
     SECOND_ORDER_DISC = ("second-order-disc", "6_second_order_system")
     BINARY_BLACK_HOLE = ("binary-black-hole", "7_binary_black_hole")
 
