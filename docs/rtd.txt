@@ -5,7 +5,7 @@ colorama==0.4.6 ; python_version >= "3.10" and python_version < "3.12" and platf
 filelock==3.12.4 ; python_version >= "3.10" and python_version < "3.12"
 gpytorch==1.10 ; python_version >= "3.10" and python_version < "3.12"
 idna==3.4 ; python_version >= "3.10" and python_version < "3.12"
-jinja2==3.1.2 ; python_version >= "3.10" and python_version < "3.12"
+jinja2==3.0.0 ; python_version >= "3.10" and python_version < "3.12"
 joblib==1.3.2 ; python_version >= "3.10" and python_version < "3.12"
 linear-operator==0.4.0 ; python_version >= "3.10" and python_version < "3.12"
 markupsafe==2.1.3 ; python_version >= "3.10" and python_version < "3.12"
