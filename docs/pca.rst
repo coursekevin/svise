@@ -1,7 +1,7 @@
 .. role:: hidden
     :class: hidden-section
 
-:github_url: https://github.com/coursekevin/svi-state-estimation
+:github_url: https://github.com/coursekevin/svise
 
 PCA 
 =================================

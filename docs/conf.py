@@ -19,8 +19,8 @@ import codecs
 
 # -- Project information -----------------------------------------------------
 
-project = "svi-state-estimation"
-copyright = "2022, Kevin Course and Prasanth Nair"
+project = "svise"
+copyright = "2023, Kevin Course and Prasanth Nair"
 author = "Kevin Course and Prasanth Nair"
 
 # The full version, including alpha/beta/rc tags

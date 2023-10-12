@@ -1,9 +1,9 @@
-.. svi-state-estimation documentation master file, created by
+.. svise documentation master file, created by
    sphinx-quickstart on Fri Nov  4 16:02:40 2022.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-:github_url: https://github.com/coursekevin/svi-state-estimation
+:github_url: https://github.com/coursekevin/svise
 
 SVISE documentation
 ================================================
