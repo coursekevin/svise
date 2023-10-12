@@ -19,7 +19,7 @@ Tutorials and docs coming soon!
 ## 1. Installation
 
 If you just want to use the package,
-you can install `svise` [from PyPI](#install-from-pypi).
+you can install `svise` [from PyPI](https://pypi.org/project/svise/).
 
 If you wish to reproduce experiments / figures, we recommend
 [installing optional dependencies](#installing-optional-dependencies).
@@ -30,7 +30,7 @@ If you wish to reproduce experiments / figures, we recommend
 pip install svise
 ```
 
-If you don't want to rerun experiments, you can skip ahead to the docs.
+The best place to learn about the package is the [documentation](http://svise.readthedocs.io/).
 
 ### Installing Optional Dependencies
 
