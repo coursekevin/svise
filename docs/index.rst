@@ -63,4 +63,4 @@ Indices and tables
 Research references
 ===================
 
-* Kevin Course and Prasanth B. Nair. "State estimation with unknown governing equations."
+* Course, K., Nair, P.B. State estimation of a physical system with unknown governing equations. Nature 622, 261–267 (2023). https://doi.org/10.1038/s41586-023-06574-8 
