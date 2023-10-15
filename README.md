@@ -83,9 +83,10 @@ repopacker download svise-pack.zip
 repopacker unpack svise-pack.zip
 ```
 
-This will download everything except for the cylinder data used in the third
+This will download everything and place it into the correct directories
+except for the cylinder data used in the third
 example. The cylinder data is split up in seven 3.2GB chunks. Download all the
-chunks and combine the data with:
+chunks from [Zenodo](https://zenodo.org/records/8327545) and combine the data with:
 
 ```bash
 cat cylinder_data_split.z*[0..9]* cylinder_data_split.zip > cylinder_data.zip
