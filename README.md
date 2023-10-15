@@ -7,8 +7,6 @@ and Prasanth B. Nair.
   <img align="middle" src="./experiments/extras/output.gif" alt="Example usage" width="700"/>
 </p>
 
-Tutorials and docs coming soon!
-
 ## Index
 
 1. [Installation](#1-installation)
@@ -30,7 +28,9 @@ If you wish to reproduce experiments / figures, we recommend
 pip install svise
 ```
 
-The best place to learn about the package is the [documentation](http://svise.readthedocs.io/).
+The best place to learn about the package is the [tutorials](https://github.com/coursekevin/svise/blob/tutorials/tutorials/1-intro-to-svise.ipynb)
+or the 
+[documentation](http://svise.readthedocs.io/)
 
 ### Installing Optional Dependencies
 
@@ -101,6 +101,16 @@ Unzip the data move the file `vortex.pkl` into the directory
 ---
 
 ## 2. Usage
+
+### Using the package
+
+See the 
+[tutorials](https://github.com/coursekevin/svise/blob/tutorials/tutorials/1-intro-to-svise.ipynb)
+or the 
+[documentation](http://svise.readthedocs.io/).
+
+
+### Running numerical studies
 
 The numerical studies can be rerun from the `experiments` directory using
 the command-line script `main.py`. All numerical studies follow the
