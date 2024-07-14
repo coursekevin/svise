@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "svise"
-version = "0.1.3"
+version = "0.1.4"
 description = "State estimation of a physical system with unknown governing equations"
 authors = ["coursekevin <kevin.course@mail.utoronto.ca>"]
 license = "GNUv3"
@@ -9,9 +9,7 @@ packages = [{include = "svise"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-torch = "^2.0.1"
-torchvision = "^0.15.2"
-torchaudio = "^2.0.2"
+torch = "^2.0.1,<2.3.0"
 scikit-learn = "^1.2.2"
 torchsde = "^0.2.5"
 gpytorch = "^1.10"
